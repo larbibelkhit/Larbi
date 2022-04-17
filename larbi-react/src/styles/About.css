@@ -3,7 +3,6 @@
     padding-left: 15%;
     padding-right: 25%;
     min-height: 80vh;
-    color: var(--aquamarine);
 }
 
 .about-description ul {
@@ -17,12 +16,12 @@
     position: relative;
     padding-left: 20px;
     font-size: 18px;
-    color: var(--grey);
+    color: var(--slate);
 }
 
 .about-description li::before {
     content: "▹    ";
-    color: var(--aquamarine);
+    color: var(--green-bright);
     position: absolute;
     left: 0;
 }
@@ -34,7 +33,7 @@
 
 .about-description {
     font-family: sans-serif;
-    color: var(--grey);
+    color: var(--slate);
     max-width: 600px;
     font-size: 22px;
     text-align: justify;
@@ -49,7 +48,11 @@
 
 .about-description a {
   text-decoration: none;
-  color: var(--aquamarine);
+  color: var(--green-bright);
+}
+
+.about-description a:hover {
+  color: var(--light-slate);
 }
 
 .about-image {

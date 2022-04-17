@@ -14,12 +14,12 @@ canvas {
 .intro-title {
     font-family: sans-serif;
     font-size: 86px;
-    color: white;
+    color: var(--lightest-slate);
 }
 
 .intro-name {
     font-family: sans-serif;
-    color: var(--aquamarine);
+    color: var(--green-bright);
     font-weight: bold;
     font-size: 86px;
 }
@@ -27,13 +27,13 @@ canvas {
 .intro-subtitle {
     margin-top: -16px;
     font-family: sans-serif;
-    color: var(--grey);
+    color: var(--slate);
     font-weight: 300;
     font-size: 48px;
 }
 
 .intro-description {
-    color: var(--grey);
+    color: var(--slate);
     font-family: sans-serif;
     font-size: 22px;
     max-width: 40%;
@@ -47,17 +47,17 @@ canvas {
     font-family: sans-serif;
     padding: 10px 30px;
     cursor: pointer;
-    border: 1px solid var(--pink);
+    border: 1px solid var(--green-bright);
     border-radius: 4px;
     text-decoration: none;
-    color: var(--pink);
+    color: var(--green-bright);
 }
 
 
 
 .intro-contact:hover {
-    background: rgba(131, 133, 140, 0.5);
-    color: var(--aquamarine);
+    background-color: var(--lightest-navy);
+    color: var(--slate);
 }
   
 b {

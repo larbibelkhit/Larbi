@@ -6,19 +6,19 @@
     font-family: sans-serif;
     font-size: 28px;
     font-weight: bold;
-    /* color: blue */
+    color: var(--lightest-slate);
 }
 
 .job-company {
     font-family: sans-serif;
     font-size: 28px;
-    /* color: blue */
+    color: var(--green-bright);
     font-weight: bold;
 }
 .job-duration {
     font-family: sans-serif;
     font-size: 28px;
-    /* color: blue */
+    color: var(--slate);
 }
 
 ul {
@@ -28,7 +28,7 @@ ul {
 
 .job-description li::before {
     content: "▹    ";
-    position: absolute;
+    color: var(--green-bright);
     left: 0;
 }
 
@@ -37,7 +37,7 @@ ul {
     padding-left: 30px;
     padding-bottom: 16px;
     font-size: 18px;
-    /* color: blue */
+    color: var(--slate);
 }
 
 .job-description {

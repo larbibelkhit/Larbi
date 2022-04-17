@@ -3,7 +3,7 @@ html {
 }
 
 .app {
-  background-color: var(--blue);
+  background-color: var(--dark-navy);
   display: flex;
   flex-direction: row;
 }
@@ -27,12 +27,12 @@ html {
   margin-top: 39px;
   height: 1px;
   margin-left: 20px;
-  background-color: var(--grey);
+  background-color: var(--lightest-navy);
 }
 
 .section-title {
   font-family: sans-serif;
-  color: white;
+  color: var(--lightest-slate);
   font-size: 46px;
   font-weight: bold;
 }
